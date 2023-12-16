@@ -1,0 +1,50 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "piggy.moc3",
+		"Textures": [
+			"piggy.2048/texture_00.png"
+		],
+		"DisplayInfo": "piggy.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "Idle",
+				"File": "motions/Idle.exp3.json"
+			}
+		],
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motions/Idle.motion3.json"
+				}
+			],
+			"TapBody": [
+				{
+					"File": "motions/TapBody.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	],
+	"HitAreas": [
+		{
+			"Id": "HitArea",
+			"Name": "Head"
+		},
+		{
+			"Id": "HitArea2",
+			"Name": "Body"
+		}
+	]
+}
